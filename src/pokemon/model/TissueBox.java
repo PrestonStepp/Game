@@ -22,7 +22,7 @@ public class TissueBox extends Pokemon implements Derptastic, Comparable
 	
 	public void derpDerpDerp()
 	{
-		
+		System.out.println("asdadasdasda");
 	}
 	
 	public int compareTo(Object temp)
