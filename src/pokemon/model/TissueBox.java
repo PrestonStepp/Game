@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class TissueBox extends Pokemon implements Derptastic
+public class TissueBox extends Pokemon implements Derptastic, Comparable
 {
 	
 	public TissueBox(int number, String name)
@@ -23,5 +23,10 @@ public class TissueBox extends Pokemon implements Derptastic
 	public void derpDerpDerp()
 	{
 		
+	}
+	
+	public int compareTo(Object temp)
+	{
+		return -10000000;
 	}
 }
