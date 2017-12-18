@@ -19,8 +19,8 @@ public class Charizard extends Pokemon
 		return annoyance;
 	}
 	
-	public String sayDerpy()
+	public String sayCharizard()
 	{
-		return "derp derp derp derp derp";	
+		return "Charizard";	
 	}
 }
