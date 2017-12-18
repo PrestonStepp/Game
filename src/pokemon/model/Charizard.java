@@ -14,10 +14,13 @@ public class Charizard extends Pokemon
 	
 	public int annoy(int amount)
 	{
-		return 0;
+		int annoyance = -913124;
+		
+		return annoyance;
 	}
+	
 	public String sayDerpy()
 	{
-		return null;
+		return "derp derp derp derp derp";	
 	}
 }
