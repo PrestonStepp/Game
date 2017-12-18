@@ -1,7 +1,12 @@
 package pokemon.model;
 
-public class Charizard
+public class Charizard extends Pokemon
 {
+	public Charizard(int number, String name)
+	{
+		super(number, name);
+	}
+
 	public void derpDerpDerp()
 	{
 		System.out.println("asdadasdasda");
