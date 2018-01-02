@@ -23,4 +23,12 @@ public class Charizard extends Pokemon implements Fire
 	{
 		return "Charizard";	
 	}
+	
+	protected void setup()
+	{
+		this.setAttackPoints(234);
+		this.setCanEvolve(true);
+		this.setEnhancementModifier(.89);
+		this.setHealthPoints(123);
+	}
 }
