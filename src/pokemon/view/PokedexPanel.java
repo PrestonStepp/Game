@@ -52,4 +52,19 @@ public class PokedexPanel
 		healthField.setText(appController.getPokedex().get(index).getHealthPoints() + "");
 		modifierField.setText(appController.getPokedex().get(index).getEnhancementModifier() + "");
 	}
+	
+	public PokedexPanel(PokemonController appController)
+	{
+		super();
+		this.appController = new appController;
+		
+		appLayout = new SpringLayout();
+		
+		evolvableBox = new JCheckBox();
+		nameField = new JTextField("name");
+		numberField new JTextField("##");
+		attackField = new JTextField("ap");
+		healthField = new JTextField("mod");
+		
+	}
 }
