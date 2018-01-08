@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 public class PokemonController
 {
-	
 	private List<Pokemon> pokedex;
 	
 	public List<Pokemon> getPokedex()
