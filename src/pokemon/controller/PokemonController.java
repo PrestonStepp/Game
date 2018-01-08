@@ -1,9 +1,8 @@
 package pokemon.controller;
 
 
-import pokemon.model.Pokemon;
+import pokemon.model.*;
 import java.util.List;
-import java.util.ArrayList;
 
 public class PokemonController
 {
